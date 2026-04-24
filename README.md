@@ -34,4 +34,4 @@ A modern, responsive frontend web application designed to help beginners learn *
 
 1. Clone the repository:
 ```bash
-[git clone https://github.com/mohakamran/japanese-learning-app.git](https://github.com/mohakamran/sakura-learn
+git clone https://github.com/mohakamran/japanese-learning-app.git
