@@ -17,6 +17,10 @@ A modern, responsive frontend web application designed to help beginners learn *
 
 ---
 
+## 📸 Screenshot
+
+![Sakura Learn App](./sakura-learn.png)
+
 ## 🛠️ Tech Stack
 
 - React (Vite)  
