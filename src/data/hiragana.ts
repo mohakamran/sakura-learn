@@ -1,0 +1,56 @@
+export interface Character {
+  char: string;
+  romaji: string;
+  example: string;
+  exampleRomaji: string;
+  exampleMeaning: string;
+}
+
+export const hiraganaData: Character[] = [
+  { char: 'あ', romaji: 'a', example: 'あひる', exampleRomaji: 'ahiru', exampleMeaning: 'Duck' },
+  { char: 'い', romaji: 'i', example: 'いちご', exampleRomaji: 'ichigo', exampleMeaning: 'Strawberry' },
+  { char: 'う', romaji: 'u', example: 'うみ', exampleRomaji: 'umi', exampleMeaning: 'Sea' },
+  { char: 'え', romaji: 'e', example: 'えんぴつ', exampleRomaji: 'enpitsu', exampleMeaning: 'Pencil' },
+  { char: 'お', romaji: 'o', example: 'おにぎり', exampleRomaji: 'onigiri', exampleMeaning: 'Rice ball' },
+  { char: 'か', romaji: 'ka', example: 'かめ', exampleRomaji: 'kame', exampleMeaning: 'Turtle' },
+  { char: 'き', romaji: 'ki', example: 'きつね', exampleRomaji: 'kitsune', exampleMeaning: 'Fox' },
+  { char: 'く', romaji: 'ku', example: 'くるま', exampleRomaji: 'kuruma', exampleMeaning: 'Car' },
+  { char: 'け', romaji: 'ke', example: 'けしごむ', exampleRomaji: 'keshigomu', exampleMeaning: 'Eraser' },
+  { char: 'こ', romaji: 'ko', example: 'ことり', exampleRomaji: 'kotori', exampleMeaning: 'Small bird' },
+  { char: 'さ', romaji: 'sa', example: 'さかな', exampleRomaji: 'sakana', exampleMeaning: 'Fish' },
+  { char: 'し', romaji: 'shi', example: 'しんかんせん', exampleRomaji: 'shinkansen', exampleMeaning: 'Bullet train' },
+  { char: 'す', romaji: 'su', example: 'すいか', exampleRomaji: 'suika', exampleMeaning: 'Watermelon' },
+  { char: 'せ', romaji: 'se', example: 'せんせい', exampleRomaji: 'sensei', exampleMeaning: 'Teacher' },
+  { char: 'そ', romaji: 'so', example: 'そら', exampleRomaji: 'sora', exampleMeaning: 'Sky' },
+  { char: 'た', romaji: 'ta', example: 'たまご', exampleRomaji: 'tamago', exampleMeaning: 'Egg' },
+  { char: 'ち', romaji: 'chi', example: 'ちず', exampleRomaji: 'chizu', exampleMeaning: 'Map' },
+  { char: 'つ', romaji: 'tsu', example: 'つくえ', exampleRomaji: 'tsukue', exampleMeaning: 'Desk' },
+  { char: 'て', romaji: 'te', example: 'てがみ', exampleRomaji: 'tegami', exampleMeaning: 'Letter' },
+  { char: 'と', romaji: 'to', example: 'とけい', exampleRomaji: 'tokei', exampleMeaning: 'Watch/Clock' },
+  { char: 'な', romaji: 'na', example: 'なっとう', exampleRomaji: 'nattou', exampleMeaning: 'Fermented soybeans' },
+  { char: 'に', romaji: 'ni', example: 'にんじん', exampleRomaji: 'ninjin', exampleMeaning: 'Carrot' },
+  { char: 'ぬ', romaji: 'nu', example: 'ぬいぐるみ', exampleRomaji: 'nuigurumi', exampleMeaning: 'Stuffed toy' },
+  { char: 'ね', romaji: 'ne', example: 'ねこ', exampleRomaji: 'neko', exampleMeaning: 'Cat' },
+  { char: 'の', romaji: 'no', example: 'のり', exampleRomaji: 'nori', exampleMeaning: 'Seaweed' },
+  { char: 'は', romaji: 'ha', example: 'はな', exampleRomaji: 'hana', exampleMeaning: 'Flower' },
+  { char: 'ひ', romaji: 'hi', example: 'ひこうき', exampleRomaji: 'hikouki', exampleMeaning: 'Airplane' },
+  { char: 'ふ', romaji: 'fu', example: 'ふね', exampleRomaji: 'fune', exampleMeaning: 'Ship' },
+  { char: 'へ', romaji: 'he', example: 'へび', exampleRomaji: 'hebi', exampleMeaning: 'Snake' },
+  { char: 'ほ', romaji: 'ho', example: 'ほし', exampleRomaji: 'hoshi', exampleMeaning: 'Star' },
+  { char: 'ま', romaji: 'ma', example: 'まくら', exampleRomaji: 'makura', exampleMeaning: 'Pillow' },
+  { char: 'み', romaji: 'mi', example: 'みかん', exampleRomaji: 'mikan', exampleMeaning: 'Mandarin orange' },
+  { char: 'む', romaji: 'mu', example: 'むし', exampleRomaji: 'mushi', exampleMeaning: 'Insect' },
+  { char: 'め', romaji: 'me', example: 'めがね', exampleRomaji: 'megane', exampleMeaning: 'Glasses' },
+  { char: 'も', romaji: 'mo', example: 'もも', exampleRomaji: 'momo', exampleMeaning: 'Peach' },
+  { char: 'や', romaji: 'ya', example: 'やま', exampleRomaji: 'yama', exampleMeaning: 'Mountain' },
+  { char: 'ゆ', romaji: 'yu', example: 'ゆき', exampleRomaji: 'yuki', exampleMeaning: 'Snow' },
+  { char: 'よ', romaji: 'yo', example: 'よる', exampleRomaji: 'yoru', exampleMeaning: 'Night' },
+  { char: 'ら', romaji: 'ra', example: 'らいおん', exampleRomaji: 'raion', exampleMeaning: 'Lion' },
+  { char: 'り', romaji: 'ri', example: 'りんご', exampleRomaji: 'ringo', exampleMeaning: 'Apple' },
+  { char: 'る', romaji: 'ru', example: 'るす', exampleRomaji: 'rusu', exampleMeaning: 'Absence' },
+  { char: 'れ', romaji: 're', example: 'れいぞうこ', exampleRomaji: 'reizouko', exampleMeaning: 'Refrigerator' },
+  { char: 'ろ', romaji: 'ro', example: 'ろけっと', exampleRomaji: 'roketto', exampleMeaning: 'Rocket' },
+  { char: 'わ', romaji: 'wa', example: 'わに', exampleRomaji: 'wani', exampleMeaning: 'Crocodile' },
+  { char: 'を', romaji: 'wo', example: 'を', exampleRomaji: 'wo', exampleMeaning: 'Particle (object marker)' },
+  { char: 'ん', romaji: 'n', example: 'きりん', exampleRomaji: 'kirin', exampleMeaning: 'Giraffe' },
+];

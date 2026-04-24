@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif JP", serif;
+  
+  --color-sakura-50: #fff5f7;
+  --color-sakura-100: #ffebeb;
+  --color-sakura-200: #ffd6da;
+  --color-sakura-400: #ff8fa3;
+  --color-sakura-500: #ff4d6d;
+  
+  --color-matcha-50: #f7fee7;
+  --color-matcha-100: #ecfccb;
+  --color-matcha-500: #84cc16;
+  
+  --color-indigo-900: #1e1b4b;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300;
+  }
+  
+  .dark body {
+    @apply bg-slate-950 text-slate-50;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .dark .glass {
+    @apply bg-slate-900/70 border-slate-800/50;
+  }
+}
