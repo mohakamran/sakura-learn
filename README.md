@@ -41,3 +41,10 @@ git clone https://github.com/mohakamran/japanese-learning-app.git
 ```bash
 npm install
 npm run dev
+```
+
+## 🔑 Environment Setup (if required)
+
+Create a `.env` file in the root:
+```env
+VITE_GEMINI_API_KEY=your_api_key_here
